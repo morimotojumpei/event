@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+JP');
+
+/* -----------ここからヘッダー------------ */
+.top_category {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left > h3 {
+  font-family: cursive ,sans-serif;
+  font-size: 50px;
+}
+
+
+.right > p {
+  margin: 0px;
+  line-height: 2;
+  
+}
+
+.header_image {
+background-image: url(../../image/christmas.png);
+background-repeat: no-repeat;
+background-size: contain;
+height: 400px;
+}
+
+.content {
+display: flex ;
+/* justify-content: space-around; */
+background:rgba(255,255,255,0.3);
+}
+
+
+
+.content li{
+/* padding:10px; */
+cursor: pointer;
+font-size: 18px;
+border-right:white 1px solid;
+text-shadow: lightslategrey;
+text-align: center;
+width: 100%;
+}
+
+.content li :hover {
+/* box-sizing: border-box; */
+color:rgb(22, 153, 109);
+text-decoration: underline;
+border-color:darkcyan;
+font-style:bold;
+}
+
+.content li a {
+text-decoration: none;
+color:black;
+}
+
+.content{
+	display: table;
+	table-layout: fixed;
+	text-align: center;
+	margin:0;
+	width:100%;
+}
+
+.content li{
+	display: table-cell;
+	vertical-align:middle;
+	border:1px solid #FFF;
+	font-size:1em;
+	background:rgba(255,255,255,0.4);
+	padding:10px;
+  font-family: 'Caveat', cursive;
+}
+
+.content li > a:before{
+  display: block;
+	font-family: FontAwesome;
+  font-size: 1em;
+}
+
+.menu1 > a:before{
+  content: '\f015';
+}
+
+.menu2 > a:before{
+	content: '\f298';
+}
+
+.menu3 > a:before{
+	content: '\f129';
+}
+
+.menu4 > a:before{
+	content: '\f505';
+}
+
+.menu5 > a:before{
+	content: '\f059';
+}
+
+.menu6 > a:before{
+	content: '\f164';
+}

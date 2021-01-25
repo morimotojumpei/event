@@ -1,0 +1,27 @@
+.back{
+  /* 画面いっぱいに背景画像を貼り付ける */
+  background-image: url(/Users/onoshoya/event/image/santa.png) repeat center;
+  background-size: cover;
+  position: relative;
+  height:300px;
+  animation: loop 50s -25s linear infinite;
+}
+
+@keyframes loop {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.title{
+  position: absolute;
+  font-size:30px;
+  top:50px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Londrina Shadow', cursive,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 1;
+}

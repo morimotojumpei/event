@@ -1,0 +1,14 @@
+/* contactの背景 */
+.background{
+  background-color:rgb(233, 235, 149);
+}
+
+
+.contact_top{
+  margin:0px;
+  padding:0px;
+  width: auto;
+  display: block;
+  margin-left: auto;
+}
+

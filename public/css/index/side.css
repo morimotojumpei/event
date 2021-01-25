@@ -1,0 +1,34 @@
+#sidebar {
+  padding: 0;
+  align-items: stretch /*コンテンツの分だけになる。*/
+
+}
+
+#sidebar ul{
+  width: 100%;
+
+}
+
+#sidebar li{
+  list-style: none;
+  margin: 0;
+  width: 100%;
+  background-color: #91cd79;
+
+}
+
+#sidebar ul li a{
+    display: block;
+    padding: 10px 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color .2s linear;
+}
+
+#sidebar ul li.active a {
+    background-color: #ADD99B;
+}
+
+#sidebar ul li a:hover {
+    background-color: #ADD99B;
+}

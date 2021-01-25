@@ -1,0 +1,149 @@
+body {
+  margin: 0 auto;
+  /* background-color: black; */
+}
+
+/* ----------ここからメイン---------- */
+.event_schedule {
+  background-image: url("../../image/flame1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+span h2 {
+  text-align: center;
+  font-weight: bold;
+  line-height: 2.2;
+  text-shadow: 2px 3px 3px silver;
+}
+
+.info {
+  text-align: center;
+}
+
+.event_list {
+  background-image: url("../../image/flame2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80px;
+  margin-bottom: 10px;
+  /* text-align: center; */
+}
+
+.events {
+  height: 600px;
+}
+
+.ages {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 300px 300px ;
+  justify-items: center;
+  align-items: center;
+}
+
+.age {
+  height: 250px;
+  width: 350px;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.age:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* -----ここからイベント開催予定日----- */
+
+.event_date {
+    background-image: url("../../image/flame3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.flex{
+  display:flex;
+}
+
+.main_page{
+margin:0;
+}
+
+.blogcard {
+  border: 1px solid gray ;
+  margin: 0  20px 10px 50px;
+}
+.parts {
+  display: flex;
+}
+
+.event_picture {
+  display: block;
+  padding: 5px;
+}
+
+.partyInfo span {
+background-color: orange;
+color: white;
+}
+
+.entryBox ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.entryBox ul  li {
+  border: 2px solid #333;
+  color: #333;
+  background-color:orange;
+}
+
+.entryBox ul li :hover {
+color: black;
+background-color: #fff;
+}
+
+.btnWhite, .btnGold {
+  display: block;
+  font-size: 30px;
+  width: 300px;
+  height: 50px;
+  text-align: center;
+}
+
+.partyInfo ul li p{
+  margin-bottom: 0;
+  margin-right:100px;
+  width: 300px;
+  float:right;
+  text-align: left;
+
+
+}
+.partyInfo ul li > span{
+float:left
+}
+
+
+
+
+
+
+
+
+
+.sidebar{
+  margin:0;
+  margin-right:50px;
+  width: 40%;
+  height:auto;
+  background-color:blue;
+}
+
